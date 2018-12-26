@@ -1,0 +1,136 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url("background.jpg");
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+}
+
+canvas
+{
+    border: 2px solid #ADFF2F;
+}
+
+.nav
+{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+h2
+{
+    position: absolute;
+    top: 38%;
+    left: 8%;
+    background-image: -webkit-linear-gradient(#D2691E, #A0522D);
+    border-radius: 5px;
+    padding: 10px;
+    transform: rotate(-8deg);
+    letter-spacing: 2px;
+    color: wheat;
+}
+
+button
+{
+    position: absolute;
+    top: 30%;
+    left: 56%;
+    background-image: -webkit-linear-gradient(#87CEEB, #00BFFF);
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #4169E1;
+}
+
+#start
+{
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    padding: 8px 30px 8px 30px;
+    background-color: darkcyan;
+    border-radius: 25%;
+    color: burlywood;
+    letter-spacing: 2px;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaijaan', cursive;
+    text-transform: uppercase;
+    border: 1px solid black;
+}
+
+#score
+{
+    position: absolute;
+    top: 67%;
+    left: 42%;
+    padding: 8px 16px 8px 16px;
+    background-color: darkviolet;
+    letter-spacing: 1px;
+    color: dodgerblue;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: monospace;
+    border-radius: 15px;
+}
+
+a
+{
+    color: #E0FFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: monospace;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+ol
+{
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    padding: 10px 10px 10px 10px;
+    background-image: -webkit-linear-gradient(#CC6699, #CC6611);
+    opacity: 0.6;
+    border: 5px solid #D19275;
+    border-radius: 25px;
+}
+
+li
+{
+    padding: 10px 10px 10px 10px;
+    font-size: 14px;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    font-family: monospace;
+    color: #FFCC99;
+    border-bottom: 1px dashed #252525;
+}
+
+li:last-child
+{
+    border: none;
+}
+
+/* Animations, hovers, tranforms etc. */
+
+a:hover
+{
+    color: #6495ED;
+}
+
+#start:hover
+{
+    color: darkcyan;
+    background-color: burlywood;
+}
